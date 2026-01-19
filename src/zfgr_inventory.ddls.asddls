@@ -1,9 +1,9 @@
-@AbapCatalog.sqlViewName: 'ZVR_INVENTORY'
+@AbapCatalog.sqlViewName: 'ZVFGR_INVENTORY'
 @AbapCatalog.compiler.compareFilter: true
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Personal inventory tracking'
-define view ZR_INVENTORY
-  as select from zinventory
+define view ZFGR_INVENTORY
+  as select from zfginventory
 {
       key item_id,
           item_name,
